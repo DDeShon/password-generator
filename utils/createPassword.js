@@ -11,3 +11,5 @@ const createPassword =
     hasSymbols ? (chars += symbols) : "";
     return chars;
   });
+
+module.exports = createPassword;
